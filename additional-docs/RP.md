@@ -48,7 +48,36 @@ Examples of frameworks which use this best-of-both-worlds approach include:
 
 Even though this is the most popular rendering strategy at this moment, it still has the drawback of requiring a server, which can be expensive and not possible in some scenarios.
 
+This approach is not realistic for a project with no budget, although it would be an effective approach in most scenarios.
+
 ## Static-Site Generation (SSG) with Hydration
 This differs to SSR in that all HTML files are rendered in advance and uploaded to a storage bucket. These files are supplied on page-load and then hydrated with JavaScript post page-load. Sites made like this are known as *Jamstack* sites and usually built by the same frameworks that allow SSR (see above).
 
 The advantage of this approach is that it is more simple and cost-efficient when compared to SSR with the only downside being that the site needs to be redployed whenever any data changes.
+
+This solves the previous solution of needing an expensive server and may be a solid option for my projects.
+
+## Incremental Static Regeneration (ISR)
+You deploy a static site like SSG, but individual pages are rebuilt whenever the cache is invalidated, thus allowing you to use dynamic data without needing redeployment.
+
+This is technically the best-of-both-worlds between SSR and SSG, but can be complex to self-host. Examples of hosts that can help set it up include:
+- [Vercel](https://vercel.com/)
+
+This pattern would be great for my project, but the complexity sets it out of the scope of this semester.
+
+## Additional Notes
+### Hydration
+Hydration can make pages feel like they are still loading on the initial page-load. Partial hydration is a solution for this issue, only hydrating what is visible to the end user. Certain elements such as the footer, may be hydrated at a later stage, such as when the user scrolls down for example. [Vite](https://vitejs.dev/) is a tool that supports partial hydration.
+
+### Islands
+The islands architecture, simply involves the splitting of interactive JavaScript and static HTML components within a web page. This might even be more effective than partial hydration.[Astro](https://astro.build/) is a good example of a framework that supports islands.
+
+### Streaming SSR (Paradigm)
+This paradigm is an approach where chunks of a page are rendered concurrently rather than all at once, thus decreasing page loading times and feeling more performant to the end user.
+
+### Resumability
+This approach removes the idea of Hydration altogether:
+1. Serialize all `JavaScript` to `HTML`.
+2. The `JavaScript` code is broken into many tiny chunks.
+3. Initial page-load is static `HTML` with no hydration needed.
+4. Any interactivity requiring `JavaScript`, is lazy-loaded in the background.
