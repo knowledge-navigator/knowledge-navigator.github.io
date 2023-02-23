@@ -13,8 +13,12 @@ Besides requirements needed by direct stakeholders, you also take other viewpoin
 **Individually**, I am developing a digital tool intended for use by schools ran by *Dixons Academies Trust*. All source code, documentation and details of this project can be found under this organization:
 https://github.com/knowledge-navigator
 
+The project is deployed here: ~~currently under development~~
+
 ### Group
 I am also part of the development **team** responsible for creating a *Baby Monitoring Simulator*. All source code, documentation and details of this project can be found under this organization: https://github.com/Baby-Monitor-Simulator
+
+The project is deployed here: ~~currently under development~~
 
 ## Select Suitable Enterprise Development Tech Stack
 ### Individual
