@@ -1,2 +1,3 @@
-# Project Wiki
-[a relative link](LO1.md)
+# Learning Outcomes
+Click on the links below to see how the learning outcomes are covered through my projects this semester.
+- [Learning Outcome 1 - Development and Deployment of Enterprise Software as a Professional](LO1.md)
