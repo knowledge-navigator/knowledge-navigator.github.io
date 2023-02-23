@@ -19,6 +19,22 @@ I am also part of the development **team** responsible for creating a *Baby Moni
 ## Select Suitable Enterprise Development Tech Stack
 ### Individual
 I have selected the following tech stack for my individual project:
-- Backend API Gateway: Rust (Warp Framework) 
-- Frontend User Interface: Vue (Warp Framework) 
-- Backend API Gateway: Rust (Warp Framework) 
+- Backend API Gateway (`REST`): [Rust](https://www.rust-lang.org/) ([Warp Framework](https://github.com/seanmonstar/warp)) 
+- Frontend User Interface (`SSR`): [Nuxt](https://nuxt.com/) (v3)
+- Object-Relational Database (`SQL`): [PostgreSQL](https://www.postgresql.org/)
+
+### Group
+We have selected the following tech stack for our group project:
+- Backend: [Kotlin](https://kotlinlang.org/)
+- Frontend: [Vue 3](https://vuejs.org/)
+
+## Select & Apply Professional Software Development Process & Actively Share Knowledge Through Communication
+We are utilizing **Scrum**, **Agile** project management through having boards with a ticket system whereby code is frequently reviewed, stakeholders are involved and development is carefully completed through defined issues and branches. See our project boards for more details on this:
+- [Personal Project Shared Board](https://github.com/orgs/knowledge-navigator/projects/1)
+- [Group Backend Board](https://github.com/orgs/Baby-Monitor-Simulator/projects/1)
+- [Group Frontend Board](https://github.com/orgs/Baby-Monitor-Simulator/projects/3)
+
+Additionally we have [templates for tickets/issues](https://github.com/Baby-Monitor-Simulator/s6-baby-monitor-simulator-webui/blob/main/.github/ISSUE_TEMPLATE/issue-ticket-template.md) as well as [branch naming conventions defined in our contribution rules](https://github.com/Baby-Monitor-Simulator/s6-baby-monitor-simulator-webui/blob/main/CONTRIBUTING.md).
+
+We are in constant communication with our stakeholders through common meetings (planned through **Teams** and **Outlook**) as well as having three-week sprints where we perform retrospectives, planning and have a deeper conversation with all stakeholders.
+
