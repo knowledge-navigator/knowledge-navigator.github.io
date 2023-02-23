@@ -21,6 +21,7 @@ I am also part of the development **team** responsible for creating a *Baby Moni
 The project is deployed here: ~~currently under development~~
 
 ## Select Suitable Enterprise Development Tech Stack
+> See [rendering patterns](../additional-docs/RP.md) for my research on rendering pattern approaches and why I picked the technology stack below.
 ### Individual
 I have selected the following tech stack for my individual project:
 - Backend API Gateway (`REST`): [Rust](https://www.rust-lang.org/) ([Warp Framework](https://github.com/seanmonstar/warp)) 

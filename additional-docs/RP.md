@@ -81,3 +81,5 @@ This approach removes the idea of Hydration altogether:
 2. The `JavaScript` code is broken into many tiny chunks.
 3. Initial page-load is static `HTML` with no hydration needed.
 4. Any interactivity requiring `JavaScript`, is lazy-loaded in the background.
+
+[Qwik](https://qwik.builder.io/) is a framework attempting this approach, although it is currently in very early stages.
