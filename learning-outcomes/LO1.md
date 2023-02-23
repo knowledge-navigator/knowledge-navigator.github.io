@@ -25,7 +25,7 @@ The project is deployed here: ~~currently under development~~
 ### Individual
 I have selected the following tech stack for my individual project:
 - Backend API Gateway (`REST`): [Rust](https://www.rust-lang.org/) ([Warp Framework](https://github.com/seanmonstar/warp)) 
-- Frontend User Interface (`SSR`): [Nuxt](https://nuxt.com/) (v3)
+- Frontend User Interface (`SSG`): [Nuxt](https://nuxt.com/) (v3)
 - Object-Relational Database (`SQL`): [PostgreSQL](https://www.postgresql.org/)
 
 ### Group
