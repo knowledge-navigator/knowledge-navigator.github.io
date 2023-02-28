@@ -31,11 +31,13 @@ I am also part of the development **team** responsible for creating a *Baby Moni
 The project is deployed here: ~~currently under development~~
 
 ## Select Suitable Enterprise Development Tech Stack
-> See [rendering patterns](../additional-docs/RP.md) for my research on rendering pattern approaches and why I picked the technology stack below.
+> See [rendering patterns](../additional-docs/RP.md) for my research on rendering pattern approaches (for frontend) and why I picked the `Nuxt` framework for my technology stack below to support a **web user interface application**.
+
+> See [my backend technology stack page](../additional-docs/WS-TS.md) for my research on the `Rust` programming language and `Warp` HTTP framework and why I chose these technologies for my tech stack to support the **backend API gateway**.
 ### Individual
 I have selected the following tech stack for my individual project:
 - Backend API Gateway (`REST`): [Rust](https://www.rust-lang.org/) ([Warp Framework](https://github.com/seanmonstar/warp)) 
-- Frontend User Interface (`SSG`): [Nuxt](https://nuxt.com/) (v3)
+- Frontend User Interface (`SSG`): [Nuxt](https://nuxt.com/) (v3 + [TS](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/))
 - Object-Relational Database (`SQL`): [PostgreSQL](https://www.postgresql.org/)
 
 ### Group
@@ -46,8 +48,7 @@ We have selected the following tech stack for our group project:
 ## Select & Apply Professional Software Development Process & Actively Share Knowledge Through Communication
 We are utilizing **Scrum**, **Agile** project management through having boards with a ticket system whereby code is frequently reviewed, stakeholders are involved and development is carefully completed through defined issues and branches. See our project boards for more details on this:
 - [Personal Project Shared Board](https://github.com/orgs/knowledge-navigator/projects/1)
-- [Group Backend Board](https://github.com/orgs/Baby-Monitor-Simulator/projects/1)
-- [Group Frontend Board](https://github.com/orgs/Baby-Monitor-Simulator/projects/3)
+- [Group project Shared Board](https://github.com/orgs/Baby-Monitor-Simulator/projects/1)
 
 Additionally we have [templates for tickets/issues](https://github.com/Baby-Monitor-Simulator/s6-baby-monitor-simulator-webui/blob/main/.github/ISSUE_TEMPLATE/issue-ticket-template.md) as well as [branch naming conventions defined in our contribution rules](https://github.com/Baby-Monitor-Simulator/s6-baby-monitor-simulator-webui/blob/main/CONTRIBUTING.md).
 

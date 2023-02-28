@@ -1,11 +1,20 @@
 # Learning Outcome 2
-# Context Based Research
+# Investigative Problem-Solving (Previously: Context Based Research)
 > You deliver professional products according to planning, which are the result of a structured and methodical investigation. You have a critical view towards your own and other people’s work, by comparing them to alternatives, judge the structured and methodical approach and consider general accepted and ethical values. Your products are validated with stakeholders and other available research, and you can judge & communicate the relevance and value of the project in its own context.
 
 *You apply critical thinking in your day-to-day work. In your planning, you can divide your work into questions which need investigation. Each investigation has a goal which can be validated and is relevant and valuable for your specific context.
 You use a well-known methodology (for instance the DOT framework) to structure your investigation. The result of the investigation is validated by you and shows the quality and value of the result.
 The result of your investigation can be justified and presented by you, both verbally and in writing. Others can validate the results, making the results transferable to others.
 One of the ongoing investigations is: keeping an eye on the current state of development of your products (for instance using the Technological Readiness Level).*
+
+### Updated Learning Outcomes:
+- You apply critical thinking in your day-to-day work. In your planning, you can identify work that needs further investigation. Each investigation works towards an answer which can be validated and is relevant and valuable for your specific context. You use a well-known methodology (for instance the DOT framework) to structure your investigation. You analyze the problem from multiple viewpoints. A suitable solution is chosen. Where the result is validated to demonstrate its quality and value. 
+
+- You can justify and present your work professionally, both verbally and in writing. 
+
+- Your investigations are understandable by your target audience, repeatable, and can be validated by others.  
+
+- One of the ongoing investigations is: keeping an eye on the current state of development of your products (for instance, using the Technological Readiness Level). 
 
 ## Delivery of Professional Products with Structured and Methodical Investigation following a Rigorous Planning
 All research can be found here: [Various Research Documentation](../README.md) under *Additional Research* heading
@@ -24,4 +33,4 @@ See my [*FeedPulse*](https://fhict.instructure.com/courses/12980/external_tools/
 - ~~TODO~~
 
 ## Products are Validated By Stakeholders through Communication
-See our 'Meeting Recordings' in the Teams group 'Baby Monitor Simulator'.
+See our '[Meeting Recordings](https://stichtingfontys.sharepoint.com/:f:/r/sites/ClinicalDecisionSupport/Gedeelde%20documenten/Baby%20Monitor%20Simulator/Meeting%20Recordings?csf=1&web=1&e=nYm0GI)' in the Teams group 'Baby Monitor Simulator'.
