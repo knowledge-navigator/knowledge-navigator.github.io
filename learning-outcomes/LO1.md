@@ -1,12 +1,22 @@
 # Learning Outcome 1
-# Development and Deployment of Enterprise Software as a Professional
->You develop and deploy enterprise software, both individually and as a team. You select a suitable enterprise development platform and application framework(s). You select and apply a software development process, which complies with professional industry standards. You actively share knowledge within your team and with stakeholders to improve knowledge & processes.
+# Future-oriented Organization
+***Previously:** Development and Deployment of Enterprise Software as a Professional*
+>You develop and deploy enterprise software, both individually and as a team. You select a suitable enterprise development platform and application framework(s). You select and apply a software development process, which complies with professional industry standards. You actively share knowledge within your team and with stakeholders to improve knowledge & processes. **Your final solution is designed with the possibility for future further development.**
 
 *Enterprise software is used in the context of companies which use large-scale distributed software, with many types of users, and substantial amounts of data.
 In such a context, you will develop software and software related products (for instance software design, test setups). All of this should be transferable to the current stakeholders, and software engineers who work on the software after you leave.
 Together with your team you agree upon a way of working that is considered professional in a large IT software organization. This software development process should be agile to accommodate future changes (for instance scrum).
 Your behaviour supports the chosen way of working. You consistently share technical knowledge and experiences of the software development process both inside and outside the team.
 Besides requirements needed by direct stakeholders, you also take other viewpoints into account which are relevant (for instance GDPR, ethical & legal issues). It is your job that all your results can be verified, validated, and transferred to others.*
+
+### Updated Learning Outcomes:
+- **Enterprise software is used in the context of companies which use large-scale distributed software, with many types of users, and substantial amounts of data, which will continue to grow in the future.** 
+
+- **In such a context, you select a suitable enterprise development platform and application framework(s). You select and apply a software development process, which complies with professional industry standards.** 
+
+- **Your solution is developed addressing the wishes and needs of your stakeholders: Both, functional and non-functional needs are addressed to all relevant products that are made (for instance, software design, test setups).**  
+
+- **All relevant work is transferable to the current stakeholders, and future software engineers. With such quality, that future teams can further develop the solution you have handed over.**  
 
 ## Develop & Deploy Enterprise Software
 ### Individual
