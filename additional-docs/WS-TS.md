@@ -20,9 +20,9 @@ Web Server - Technology Stack
     - driving the `Future`s to completion
     - passing on work to kernel
 
-![The complete asynchronous Rust environment.](https://raw.githubusercontent.com/wiki/dainank/know-nav-web-server-api/assets/images/complete-async-rust-env.jpg?token=GHSAT0AAAAAAB54BVHGUSN3RPL5LKWU4QZQY75467Q)
+![The complete asynchronous Rust environment.](../assets/images/complete-async-rust-env.jpg)
     
-![Executing async HTTP requests behind the scenes.](https://raw.githubusercontent.com/wiki/dainank/know-nav-web-server-api/assets/images/exe-async-http-request.jpg?token=GHSAT0AAAAAAB54BVHH42ITH6UW4CBCNGYGY75474Q)
+![Executing async HTTP requests behind the scenes.](../assets/images/exe-async-http-request.jpg)
 
 1. The runtime takes this piece of code and hands it over to the Executor. The Executor is responsible for calling the poll method on the Future.
 2. If it’s a network request, the runtime is handing it over to mio, which creates the asynchronous socket in the kernel, and requests some CPU time to finish the task.
@@ -44,7 +44,7 @@ For its syntax, Rust offers a combination of async and await as keywords. You ma
 > `actix` brings its own runtime (but you can also choose to use tokio). The frameworks rocket, warp and axum are using tokio.
 
 A brief overview follows of where we use what:
-![When using warp, you inherit the runtime tokio and hyper as the HTTP abstraction and server under the hood.](https://raw.githubusercontent.com/wiki/dainank/know-nav-web-server-api/assets/images/when-using-what.jpg?token=GHSAT0AAAAAAB54BVHGK4VQ5K5DITMY2EMUY755ADQ)
+![When using warp, you inherit the runtime tokio and hyper as the HTTP abstraction and server under the hood.](../assets/images/when-using-what.jpg)
 
 ### Warp Framework
 #### Context
@@ -77,7 +77,7 @@ async fn main() {
 3. Forward the request to a route handler that is responsible for the path and type.
 4. Before forwarding the request to the route handler, the request can be passed through middleware, which checks things like authentication headers or adds further information to the request that is handed down to the route handler.
 
-![Workflow of sending, parsing, and answering HTTP GET requests with Warp.](https://raw.githubusercontent.com/wiki/dainank/know-nav-web-server-api/assets/images/http-workflow.jpg?token=GHSAT0AAAAAAB54BVHGLRD3F5BTFEH6JEHAY755ALA)
+![Workflow of sending, parsing, and answering HTTP GET requests with Warp.](../assets/images/http-workflow.jpg)
 
 Consider the following checklist a great starting point for understanding a web framework:
 - How does it parse the incoming `PATH` and HTTP method?
