@@ -139,3 +139,17 @@ match store.questions.write().await.remove(&QuestionId(id)) {
 }
 ```
 The underscore `_` simply signals that we are not interesting nor need the return value from the match block, we only want to see if **something** returned.
+
+## Why Specific Type for ID?
+```rs
+struct Question {
+   id: QuestionId,
+   title: String,
+   content: String,
+   tags: Option<Vec<String>>,
+}
+struct QuestionId(String);
+```
+In this code snipit, you can see how we have a custom type `QuestionId` for the `id` of `Question` that is made up of a single property of type `String`. Why do we do this, when we can just define the original `id` property in `Question` as type `String`?
+
+The reason for this is that we force the code to pass a new `QuestionId` whenever we pass a parameter or create a new `Question`, instead of just passing a string. The custom type **conveys a purpose** (the compiler now enforces that for us).
