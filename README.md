@@ -14,3 +14,4 @@ Click on the links below to see how the learning outcomes are covered through my
 - [Backend Technology Stack](./additional-docs/WS-TS.md)
 - [Frontend Rendering Patterns](./additional-docs/RP.md)
 - [Implementation of RESTful API in Rust with Warp](./additional-docs/IMPL-API.md)
+- [Why Rust?](./additional-docs/RUST.md)

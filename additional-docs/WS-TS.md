@@ -5,6 +5,8 @@ Web Server - Technology Stack
 *Documentation explaining the backend technology stack, including why I **chose certain** **languages**, **frameworks** and coding **implementations**.*
 
 # Server-side web appllication serving a complete web service.
+> For more details on Rust's core features and why I have chosen the language for this purpose, see [here](./RUST.md).
+
 ## Requirements (for `web-server`)
 - Make use of the kernels asynchronous read and write API through epoll/select/poll
 - Be able to offload long-running tasks in the user space and have some form of mechanism to notify us when the task is done so we can progress with our work. 
