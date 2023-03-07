@@ -16,3 +16,4 @@ Click on the links below to see how the learning outcomes are covered through my
 - [Implementation of RESTful API in Rust with Warp](./additional-docs/IMPL-API.md)
 - [Why Rust?](./additional-docs/RUST.md)
 - [Project Structure](./additional-docs/PROJ-STRUCT.md)
+- [Logging & Tracing](./additional-docs/LOGGING.md)
