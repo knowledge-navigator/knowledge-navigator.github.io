@@ -188,3 +188,8 @@ Structs:
 ```
 
 Often the **example** in the documentation for a `Trait` will demonstrate how to implement said trait on a struct.
+
+#### Modules
+> Modules are used to group code together in Rust.
+
+The `mod` keyword can be used to indicate a new module. `snake_case` is recommended for mod naming. `mod` should be used instead of `use` when working with local files. A `mod.rs` file can be used to link all files to a `main.rs` file.

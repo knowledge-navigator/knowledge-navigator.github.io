@@ -70,7 +70,7 @@ This pattern would be great for my project, but the complexity sets it out of th
 Hydration can make pages feel like they are still loading on the initial page-load. Partial hydration is a solution for this issue, only hydrating what is visible to the end user. Certain elements such as the footer, may be hydrated at a later stage, such as when the user scrolls down for example. [Vite](https://vitejs.dev/) is a tool that supports partial hydration.
 
 ### Islands
-The islands architecture, simply involves the splitting of interactive JavaScript and static HTML components within a web page. This might even be more effective than partial hydration.[Astro](https://astro.build/) is a good example of a framework that supports islands.
+The islands architecture, simply involves the splitting of interactive JavaScript and static HTML components within a web page. This might even be more effective than partial hydration. [Astro](https://astro.build/) is a good example of a framework that supports islands.
 
 ### Streaming SSR (Paradigm)
 This paradigm is an approach where chunks of a page are rendered concurrently rather than all at once, thus decreasing page loading times and feeling more performant to the end user.
